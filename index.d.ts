@@ -17,6 +17,7 @@ declare namespace Ospec {
 		equals: Assertion;
 		notEquals: Assertion;
 		deepEquals: Assertion;
+		notDeepEquals: Assertion;
 	}
 
 	interface Static {
