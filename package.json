@@ -1,0 +1,29 @@
+{
+  "name": "@types/ospec",
+  "version": "1.0.0",
+  "description": "Typescript Definitions for Ospec",
+  "scripts": {
+    "test": "tsc",
+    "lint": "tslint **/*.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spacejack/ospec.d.ts.git"
+  },
+  "contributors": [
+    {
+      "name": "Mike Linkovich",
+      "url": "https://github.com/spacejack/ospec.d.ts#readme"
+    }
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/spacejack/ospec.d.ts/issues"
+  },
+  "homepage": "https://github.com/spacejack/ospec.d.ts#readme",
+  "devDependencies": {
+    "tslint": "^5.11.0",
+    "typescript": "^3.2.2",
+    "dtslint": "Microsoft/dtslint#production"
+  }
+}

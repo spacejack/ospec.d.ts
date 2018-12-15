@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "lib": ["es2015", "dom"],
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "strictNullChecks": true,
+    "noEmit": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "files": [
+    "test/test.ts",
+    "index.d.ts"
+  ]
+}
