@@ -8,7 +8,7 @@ declare namespace Ospec {
 	type Assertion = (value: any) => (description: string) => void;
 
 	interface Spy {
-		(...values: any[]): void;
+		(...args: any[]): void;
 		callCount: number;
 		args: any[];
 	}
@@ -27,7 +27,7 @@ declare namespace Ospec {
 		beforeEach(f: () => void): void;
 		after(f: () => void): void;
 		afterEach(f: () => void): void;
-		spy(f?: (...args: []) => any): Spy;
+		spy(f?: (...args: any[]) => any): Spy;
 		timeout(delay: number): void;
 		run(): void;
 		new: () => Static;
